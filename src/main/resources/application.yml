@@ -4,8 +4,8 @@ spring:
   application:
     name: registration-service
 security:
-    user:
-      password: ${eureka.password}
+  basic:
+    enabled: false
 eureka:
   instance:
     hostname: localhost
